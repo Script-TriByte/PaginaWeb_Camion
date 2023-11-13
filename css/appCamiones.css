@@ -79,7 +79,7 @@ option{
     font-size: 15px;
 }
 
-.Listado{
+.listado{
     width:184px;
     height: 70px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -113,3 +113,73 @@ label{
         left: 400px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .contenedorCamiones{
+        position:absolute;
+        left: 26%;
+        width: 40%;
+    }
+
+    #contenedorFiltroDeBusqueda{
+        font-size: 8px;
+    }
+
+    select{
+        font-size: 7px;
+    }
+
+    input{
+        width: 40%;
+        font-size: 10px;
+    }
+
+    .listado{
+        position:absolute;
+        width: 45%;
+    }
+
+    button{
+        font-size: 7px;
+    }
+  }
+  
+  @media screen and (max-width: 320px){
+    .contenedorCamiones{
+        left: 26%;
+        width: 41%;
+    }
+
+    select{
+        margin-top: 45%;
+        height: 5%;
+        width: 100%;
+    }
+
+    #filtroBusqueda{
+        position: absolute;
+        top: 35%;
+    }
+
+    input{
+        position:absolute;
+        top: 10%;
+        width: 50%;
+    }
+
+    #botonBuscar{
+        position: absolute;
+        left: 70%;
+    }
+
+    .listado{
+        position:absolute;
+        width: 37%;
+    }
+
+    #confirmacionCamion{
+        font-size: 3px;
+        border-radius: 2%;
+        padding: 2px;
+    }
+  }
